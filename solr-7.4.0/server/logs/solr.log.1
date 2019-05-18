@@ -1,0 +1,111 @@
+2018-07-23 08:33:34.297 INFO  (main) [   ] o.e.j.u.log Logging initialized @1675ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-07-23 08:33:34.565 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.10.v20180503; built: 2018-05-03T15:56:21.710Z; git: daa59876e6f384329b122929e70a80934569428c; jvm 1.8.0_161-b14
+2018-07-23 08:33:34.635 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/weli/projs/solr-7.4.0/server/contexts/] at interval 0
+2018-07-23 08:33:35.070 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-07-23 08:33:35.082 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2018-07-23 08:33:35.082 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2018-07-23 08:33:35.087 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2018-07-23 08:33:35.162 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2018-07-23 08:33:35.213 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2018-07-23 08:33:35.220 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.4.0
+2018-07-23 08:33:35.220 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-07-23 08:33:35.221 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/weli/projs/solr-7.4.0
+2018-07-23 08:33:35.222 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-07-23T08:33:35.222Z
+2018-07-23 08:33:35.297 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/weli/projs/solr-7.4.0/server/solr
+2018-07-23 08:33:35.307 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/weli/projs/solr-7.4.0/server/solr/solr.xml
+2018-07-23 08:33:35.430 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@6b67034, but no JMX reporters were configured - adding default JMX reporter.
+2018-07-23 08:33:36.776 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-07-23 08:33:36.780 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2018-07-23 08:33:36.954 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6b67034
+2018-07-23 08:33:36.954 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6b67034
+2018-07-23 08:33:36.974 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6b67034
+2018-07-23 08:33:37.024 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /home/weli/projs/solr-7.4.0/server/solr
+2018-07-23 08:33:37.132 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@445b295b{/solr,file:///home/weli/projs/solr-7.4.0/server/solr-webapp/webapp/,AVAILABLE}{file:///home/weli/projs/solr-7.4.0/server//solr-webapp/webapp}
+2018-07-23 08:33:37.177 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@5de52e87{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-07-23 08:33:37.188 INFO  (main) [   ] o.e.j.s.Server Started @4571ms
+2018-07-23 08:34:03.646 INFO  (qtp349420578-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=63
+2018-07-23 08:34:03.770 INFO  (qtp349420578-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=28
+2018-07-23 08:34:03.788 INFO  (qtp349420578-15) [   x:pili] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=pili&action=STATUS&wt=json} status=0 QTime=1
+2018-07-23 08:34:03.826 INFO  (qtp349420578-18) [   x:pili] o.a.s.h.a.CoreAdminOperation core create command name=pili&action=CREATE&instanceDir=pili&wt=json
+2018-07-23 08:34:03.905 INFO  (qtp349420578-18) [   x:pili] o.a.s.c.SolrResourceLoader [pili] Added 57 libs to classloader, from paths: [/home/weli/projs/solr-7.4.0/contrib/clustering/lib, /home/weli/projs/solr-7.4.0/contrib/extraction/lib, /home/weli/projs/solr-7.4.0/contrib/langid/lib, /home/weli/projs/solr-7.4.0/contrib/velocity/lib, /home/weli/projs/solr-7.4.0/dist]
+2018-07-23 08:34:04.197 INFO  (qtp349420578-18) [   x:pili] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-07-23 08:34:04.478 INFO  (qtp349420578-18) [   x:pili] o.a.s.s.IndexSchema [pili] Schema name=default-config
+2018-07-23 08:34:05.446 INFO  (qtp349420578-18) [   x:pili] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-07-23 08:34:05.502 INFO  (qtp349420578-18) [   x:pili] o.a.s.c.CoreContainer Creating SolrCore 'pili' using configuration from instancedir /home/weli/projs/solr-7.4.0/server/solr/pili, trusted=true
+2018-07-23 08:34:05.521 INFO  (qtp349420578-18) [   x:pili] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.pili' (registry 'solr.core.pili') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6b67034
+2018-07-23 08:34:05.537 INFO  (qtp349420578-18) [   x:pili] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-07-23 08:34:05.548 INFO  (qtp349420578-18) [   x:pili] o.a.s.c.SolrCore [[pili] ] Opening new SolrCore at [/home/weli/projs/solr-7.4.0/server/solr/pili], dataDir=[/home/weli/projs/solr-7.4.0/server/solr/pili/data/]
+2018-07-23 08:34:05.696 INFO  (qtp349420578-18) [   x:pili] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-07-23 08:34:06.406 INFO  (qtp349420578-18) [   x:pili] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-07-23 08:34:06.406 INFO  (qtp349420578-18) [   x:pili] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-07-23 08:34:06.420 INFO  (qtp349420578-18) [   x:pili] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-07-23 08:34:06.420 INFO  (qtp349420578-18) [   x:pili] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-07-23 08:34:06.453 INFO  (qtp349420578-18) [   x:pili] o.a.s.s.SolrIndexSearcher Opening [Searcher@230c0e83[pili] main]
+2018-07-23 08:34:06.472 INFO  (qtp349420578-18) [   x:pili] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/weli/projs/solr-7.4.0/server/solr/pili/conf
+2018-07-23 08:34:06.500 INFO  (qtp349420578-18) [   x:pili] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-07-23 08:34:06.508 INFO  (qtp349420578-18) [   x:pili] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-07-23 08:34:06.525 INFO  (qtp349420578-18) [   x:pili] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-07-23 08:34:06.577 INFO  (searcherExecutor-10-thread-1-processing-x:pili) [   x:pili] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@230c0e83[pili] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-07-23 08:34:06.577 INFO  (searcherExecutor-10-thread-1-processing-x:pili) [   x:pili] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-07-23 08:34:06.578 INFO  (searcherExecutor-10-thread-1-processing-x:pili) [   x:pili] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-07-23 08:34:06.609 INFO  (searcherExecutor-10-thread-1-processing-x:pili) [   x:pili] o.a.s.c.SolrCore [pili] Registered new searcher Searcher@230c0e83[pili] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-07-23 08:34:06.627 INFO  (qtp349420578-18) [   x:pili] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1606769544136753152
+2018-07-23 08:34:06.645 INFO  (qtp349420578-18) [   x:pili] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=pili&action=CREATE&instanceDir=pili&wt=json} status=0 QTime=2819
+2018-07-24 07:02:21.606 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@5de52e87{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-07-24 07:02:21.607 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2018-07-24 07:02:21.615 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1173346575
+2018-07-24 07:02:21.622 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-07-24 07:02:21.623 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@3d97a632: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@301a8c4b
+2018-07-24 07:02:21.636 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-07-24 07:02:21.636 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@333dd51e: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@7346e146
+2018-07-24 07:02:21.640 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-07-24 07:02:21.640 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@52d645b1: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@175a53b1
+2018-07-24 07:02:21.651 INFO  (coreCloseExecutor-15-thread-1) [   x:pili] o.a.s.c.SolrCore [pili]  CLOSING SolrCore org.apache.solr.core.SolrCore@364e551a
+2018-07-24 07:02:21.652 INFO  (coreCloseExecutor-15-thread-1) [   x:pili] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.pili, tag=364e551a
+2018-07-24 07:02:21.652 INFO  (coreCloseExecutor-15-thread-1) [   x:pili] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@200b7695: rootName = null, domain = solr.core.pili, service url = null, agent id = null] for registry solr.core.pili / com.codahale.metrics.MetricRegistry@36265640
+2018-07-24 07:02:21.676 ERROR (coreCloseExecutor-15-thread-1) [   x:pili] o.a.s.u.SolrIndexWriter Error closing IndexWriter
+org.apache.lucene.store.AlreadyClosedException: Underlying file changed by an external force at 2018-07-22T04:18:30Z, (lock=NativeFSLock(path=/home/weli/projs/solr-7.4.0/server/solr/pili/data/index/write.lock,impl=sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid],creationTime=2018-07-23T08:34:05.62928Z))
+	at org.apache.lucene.store.NativeFSLockFactory$NativeFSLock.ensureValid(NativeFSLockFactory.java:191) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.deleteFile(LockValidatingDirectoryWrapper.java:37) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.lucene.index.IndexFileDeleter.deleteFile(IndexFileDeleter.java:696) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.lucene.index.IndexFileDeleter.deleteFiles(IndexFileDeleter.java:683) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.lucene.index.IndexFileDeleter.refresh(IndexFileDeleter.java:449) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.lucene.index.IndexWriter.rollbackInternalNoCommit(IndexWriter.java:2332) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.lucene.index.IndexWriter.rollbackInternal(IndexWriter.java:2274) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1031) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1071) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+	at org.apache.solr.update.SolrIndexWriter.close(SolrIndexWriter.java:286) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.update.DirectUpdateHandler2.closeWriter(DirectUpdateHandler2.java:917) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.update.DefaultSolrCoreState.closeIndexWriter(DefaultSolrCoreState.java:105) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.update.DefaultSolrCoreState.close(DefaultSolrCoreState.java:399) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.update.SolrCoreState.decrefSolrCoreState(SolrCoreState.java:83) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.SolrCore.close(SolrCore.java:1572) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.SolrCores.lambda$close$0(SolrCores.java:141) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_161]
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209) ~[solr-solrj-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+	Suppressed: org.apache.lucene.store.AlreadyClosedException: this IndexWriter is closed
+		at org.apache.lucene.index.IndexWriter.ensureOpen(IndexWriter.java:670) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.lucene.index.IndexFileDeleter.ensureOpen(IndexFileDeleter.java:346) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.lucene.index.IndexFileDeleter.deleteFiles(IndexFileDeleter.java:669) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.lucene.index.IndexFileDeleter.decRef(IndexFileDeleter.java:589) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.lucene.index.IndexFileDeleter.checkpoint(IndexFileDeleter.java:531) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.lucene.index.IndexWriter.rollbackInternalNoCommit(IndexWriter.java:2331) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.lucene.index.IndexWriter.rollbackInternal(IndexWriter.java:2274) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1035) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1071) ~[lucene-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:51:45]
+		at org.apache.solr.update.SolrIndexWriter.close(SolrIndexWriter.java:286) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+		at org.apache.solr.update.DirectUpdateHandler2.closeWriter(DirectUpdateHandler2.java:917) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+		at org.apache.solr.update.DefaultSolrCoreState.closeIndexWriter(DefaultSolrCoreState.java:105) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+		at org.apache.solr.update.DefaultSolrCoreState.close(DefaultSolrCoreState.java:399) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+		at org.apache.solr.update.SolrCoreState.decrefSolrCoreState(SolrCoreState.java:83) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+		at org.apache.solr.core.SolrCore.close(SolrCore.java:1572) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+		at org.apache.solr.core.SolrCores.lambda$close$0(SolrCores.java:141) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_161]
+		at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209) ~[solr-solrj-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:14]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+		at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+2018-07-24 07:02:21.706 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@445b295b{/solr,null,UNAVAILABLE}{file:///home/weli/projs/solr-7.4.0/server//solr-webapp/webapp}
